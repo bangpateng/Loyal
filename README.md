@@ -37,7 +37,7 @@ loyald status 2>&1 | jq .SyncInfo
 ```
 
 ### Membuat Dompet
-Anda dapat menggunakan perintah berikut untuk membuat dompet baru. Jangan lupa untuk menyimpan reminder Address dan (mnemonic). pharphase isi katasandi bebas
+Anda dapat menggunakan perintah berikut untuk membuat dompet baru. Jangan lupa untuk menyimpan reminder Address dan (mnemonic). Keyring pharphase isi katasandi bebas
 ```
 loyald keys add $LYL_WALLET
 ```
@@ -54,7 +54,13 @@ loyald keys list
 Tambahkan Alamat Dompet:
 ```
 LYL_WALLET_ADDRESS=$(loyald keys show $LYL_WALLET -a)
+```
+Enter keyring passphrase: Kata Sandi Anda
+```
 LYL_VALOPER_ADDRESS=$(loyald keys show $LYL_WALLET --bech val -a)
+```
+Enter keyring passphrase: Isi Kandi Sandi Anda
+```
 echo 'export LYL_WALLET_ADDRESS='${LYL_WALLET_ADDRESS} >> $HOME/.bash_profile
 echo 'export LYL_VALOPER_ADDRESS='${LYL_VALOPER_ADDRESS} >> $HOME/.bash_profile
 source $HOME/.bash_profile
