@@ -37,7 +37,7 @@ loyald status 2>&1 | jq .SyncInfo
 ```
 
 ### Membuat Dompet
-Anda dapat menggunakan perintah berikut untuk membuat dompet baru. Jangan lupa untuk menyimpan reminder (mnemonic).
+Anda dapat menggunakan perintah berikut untuk membuat dompet baru. Jangan lupa untuk menyimpan reminder Address dan (mnemonic). pharphase isi katasandi bebas
 ```
 loyald keys add $LYL_WALLET
 ```
