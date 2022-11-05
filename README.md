@@ -22,7 +22,15 @@ RAM 8 GB
 Penyimpanan 200GB (SSD atau NVME)
 Koneksi Internet yang persisten (lalu lintas minimum 10Mbps selama testnet - setidaknya 100Mbps diharapkan untuk produksi)
 
-### Instalisasi Otomatis
+### ✅️ Website Explorer
+
+https://explorer.nodestake.top/loyal-testnet
+
+### ✅️ Docs Official
+
+https://docs.joinloyal.io/validators/run-a-loyal-validator
+
+## Instalisasi Otomatis
 
 ```
 wget -O loyal.sh https://raw.githubusercontent.com/bangpateng/Loyal/main/loyal.sh && chmod +x loyal.sh && ./loyal.sh
