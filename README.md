@@ -59,9 +59,12 @@ echo 'export LYL_WALLET_ADDRESS='${LYL_WALLET_ADDRESS} >> $HOME/.bash_profile
 echo 'export LYL_VALOPER_ADDRESS='${LYL_VALOPER_ADDRESS} >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
-### buat validator
+### Claim Faucet
 
 Sebelum membuat validator, pastikan Anda memiliki setidaknya 1 lyl (1 lyl sama dengan 1000000 ulyl) dan node Anda sinkron.
+
+- Join Discord : https://discord.gg/NtYA3SgN
+- Minta Faucet Sama Dev namanya Matt Tag Aja Orangnya di DC
 
 ## Untuk memeriksa saldo dompet Anda:
 ```
