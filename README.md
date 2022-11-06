@@ -89,13 +89,16 @@ Jika Anda tidak dapat melihat saldo di dompet, simpul Anda mungkin masih disinkr
 ## Membuat Validator:
 ```
 loyald tx staking create-validator \
-  --amount 10000000ulyl \
+  --amount 8000000ulyl \
   --from $LYL_WALLET \
+  --min-self-delegation "1" \
   --commission-max-rate "0.2" \
+  --commission-max-change-rate "0.07" \
   --commission-rate "0.07" \
   --pubkey  $(loyald tendermint show-validator) \
   --moniker $LYL_NODENAME \
-  --chain-id $LYL_ID
+  --chain-id $LYL_ID \
+  --gas-prices 1ulyl
 ```
 
 ## Perintah yang Berguna
