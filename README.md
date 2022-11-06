@@ -24,7 +24,7 @@ Koneksi Internet yang persisten (lalu lintas minimum 10Mbps selama testnet - set
 
 ### ✅️ Website Explorer
 
-https://explorer.nodestake.top/loyal-testnet
+https://ping-pub.joinloyal.io/loyal/staking
 
 ### ✅️ Docs Official
 
