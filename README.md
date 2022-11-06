@@ -190,11 +190,13 @@ loyald tx staking edit-validator \
 ```
 ### Keluar Dari Penjara (Dibebaskan):
 ```
-loyald tx slashing unjail \
-  --broadcast-mode=block \
-  --from=$LYL_WALLET \
+loyald tx staking edit-validator \
+  --new-moniker=NAMA NODE KALIAN \
+  --identity="ISI ID GITHUB KALIAN" \
+  --website="ISI NAMA WEB ATAU LINK KALIAN" \
   --chain-id=$LYL_ID \
-  --gas=auto --fees 250ulyl
+  --from=ISI ADDRESS LOYAL KALIAN \
+  --fees=250ulyl
 ```
 ### Untuk Menghapus Node Sepenuhnya:
 ```
