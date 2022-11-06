@@ -90,13 +90,13 @@ Jika Anda tidak dapat melihat saldo di dompet, simpul Anda mungkin masih disinkr
 ```
 loyald tx staking create-validator \
   --amount 8000000ulyl \
-  --from $LYL_WALLET \
+  --from ISI ADDRESS KALIAN \
   --min-self-delegation "1" \
   --commission-max-rate "0.2" \
   --commission-max-change-rate "0.07" \
   --commission-rate "0.07" \
   --pubkey  $(loyald tendermint show-validator) \
-  --moniker $LYL_NODENAME \
+  --moniker ISI NAMA NODE KALIAN \
   --chain-id $LYL_ID \
   --gas-prices 1ulyl
 ```
@@ -193,11 +193,14 @@ loyald tx staking edit-validator \
 ```
 ### Keluar Dari Penjara (Dibebaskan):
 ```
-loyald tx slashing unjail \
-  --broadcast-mode=block \
-  --from=$LYL_WALLET \
+loyald tx staking edit-validator \
+  --new-moniker=ISI NAMA NODE KALIAN \
+  --identity="ISI PGP KEY AKUN KEYBASE" \
+  --website="https://t.me/bangpateng_group" \
   --chain-id=$LYL_ID \
-  --gas=auto --fees 250ulyl
+  --from=ISI ADDRESS KALIAN \
+  --fees=250ulyl
+  --gas-prices 1ulyl
 ```
 ### Untuk Menghapus Node Sepenuhnya:
 ```
