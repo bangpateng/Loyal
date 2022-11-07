@@ -77,7 +77,7 @@ source $HOME/.bash_profile
 
 Sebelum membuat validator, pastikan Anda memiliki setidaknya 1 lyl (1 lyl sama dengan 1000000 ulyl) dan node Anda sinkron.
 
-- Join Discord : https://discord.gg/NtYA3SgN
+- Join Discord : https://discord.gg/ttqvdww2
 - Minta Faucet Sama Dev namanya Matt Tag Aja Orangnya di DC
 
 ## Untuk memeriksa saldo dompet Anda:
